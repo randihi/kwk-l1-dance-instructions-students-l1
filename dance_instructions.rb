@@ -30,7 +30,7 @@ def lasso
 end
 
 def bust_a_move
-  puts "Twirl around in a circle"
+  puts "Be cool and be snazzy"
 end
 
 starting_stance
