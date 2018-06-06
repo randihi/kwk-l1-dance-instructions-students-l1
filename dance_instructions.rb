@@ -33,39 +33,12 @@ def bust_a_move
   puts "Be cool and be snazzy"
 end
 
-starting_stance
-bust_a_move
-base_footwork
-bob_the_reins
-skip_step
-bob_the_reins
-skip_step
-bob_the_reins
-skip_step
-bob_the_reins
-skip_step
-bob_the_reins
-skip_step
-bob_the_reins
-skip_step
-bob_the_reins
-skip_step
-bob_the_reins
-skip_step
-bob_the_reins
-skip_step
-lasso
-skip_step
-lasso
-skip_step
-lasso
-skip_step
-lasso
-skip_step
-lasso
-skip_step
-lasso
-skip_step
-lasso
-skip_step
-
+def gangnam_style
+  starting_stance
+  base_footwork
+  skip_step("right foot")
+  bob_the_reins
+  skip_step("left foot")
+  lasso
+  bust_a_move
+end
